@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- annimation-->
+  <style>
+    /* Custom Fade-In Animation */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+  </style>
+  
+   
+
+  
+</head>
+<body class="bg-gray-100">
+ 
+  <header class="bg-white shadow p-4">
+    <div class="container mx-auto flex justify-between items-center bg-slate-100 p-4 rounded-3xl">
+      <h1 class="text-2xl font-bold text-blue-500">Sojib Islam</h1>
+      <nav>
+        <a href="#about" class="text-gray-700 mx-2 font-bold">About</a>
+        <a href="#projects" class="text-gray-700 mx-2 font-bold">Projects</a>
+        <a href="#contact" class="text-gray-700 mx-2 font-bold">Contact</a>
+      </nav>
+    </div>
+   <div class="bg-gradient-to-r from-blue-100 to-purple-50 p-12 mt-8 rounded-full mb-4">
+    <h1 class="text-3xl font-bold text-center  mt-8 ">Welcome to My Portfolio</h1>
+    <img src="images/profile-pic(1)12345.png" alt="Project Image" class="mx-auto block mt-4 fade-in w-72 h-72 rounded-full border-orange-600 border-4 shadow-orange-500 shadow-2xl " />
+   </div>
+
+  </header>
+  <!-- About Me Section -->
+<section id="about" class="bg-gray-100 py-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold text-orange-600 mb-12">About Me</h2>
+      <div class="flex justify-between">
+        <p class="text-gray-700 w-1/2   font-bold">
+            Hi, I'm Sojib Islam, a passionate Frontend Web Developer with expertise in HTML, CSS, Tailwind CSS, and Daisy UI. I love building responsive and visually appealing websites. My goal is to create user-friendly interfaces that provide the best user experience.
+          </p>
+          <p>
+            <ul class="font-bold text-gray-700">
+                <li class="font-bold text-blue-400 text-2xl">Skills:</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind CSS</li>
+                <li>Daisy UI</li>
+                <li>Responsive Design</li>
+                <li>JavaScript (basic)</li>
+            </ul>
+          </p>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+<section id="projects" class="bg-white py-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4 text-red-900">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="border rounded p-4 shadow bg-orange-200">
+          <h3 class="text-lg font-bold  text-orange-900">Project 1</h3>
+          <p class="text-gray-600 font-bold">"Bike Dekho" is an innovative web design that brings everything for bike enthusiasts in one place.</p>
+          <a class="text-red-500 font-bold underline" href="https://sojib6505.github.io/biker-jone-project/">Live Demo</a>
+          <a class="text-red-500 font-bold underline" href="https://github.com/sojib6505/biker-jone-project">Source Code</a>
+        </div>
+        <!--p-2-->
+        <div class="border rounded p-4 shadow-2xl bg-orange-200 ">
+            <h3 class="text-lg font-bold text-orange-900">Project 2</h3>
+            <p class="text-gray-600 font-bold">A responsive portfolio using Tailwind CSS.</p>
+            <a href="#" class="text-red-500 font-bold underline">Live Demo</a>
+            <a href="#" class="text-red-500 font-bold underline">Source Code</a>
+          </div>
+        <!--p-3-->  
+        <div class="border rounded p-4 shadow-2xl bg-orange-200 ">
+            <h3 class="text-lg font-bold text-orange-900">Project 3</h3>
+            <p class="text-gray-600 font-bold">A responsive portfolio using Tailwind CSS.</p>
+            <a class="text-red-500 font-bold underline" href="#" class="text-blue-500 underline">Live Demo</a>
+            <a class="text-red-500 font-bold underline" href="#" class="text-blue-500 underline ml-4">Source Code</a>
+          </div>
+          <!--p-4-->
+          <div class="border rounded p-4 shadow-2xl bg-orange-200 ">
+            <h3 class="text-lg font-bold text-orange-900">Project 4</h3>
+            <p class="text-gray-600 font-bold">A responsive portfolio using Tailwind CSS.</p>
+            <a class="text-red-500 font-bold underline" href="#" class="text-blue-500 underline">Live Demo</a>
+            <a class="text-red-500 font-bold underline" href="#" class="text-blue-500 underline ml-4">Source Code</a>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--contact section-->
+  <section id="contact" class="bg-gray-100 py-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Contact Me</h2>
+      <p class="text-gray-600 mb-8">Feel free to reach out to me through social media or contact form!</p>
+      
+      <!-- Social Media Links -->
+      <div class="flex justify-center mb-8">
+        <!-- Facebook Link -->
+        <a href="https://www.facebook.com/your-profile" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">
+            <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        
+        <!-- GitHub Link -->
+        <a href="https://github.com/sojib6505" target="_blank" class="mx-4 text-gray-800 hover:text-gray-900">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <!-- LinkedIn Link -->
+        <a href="https://www.linkedin.com/in/md-sojib-islam-b80a80271/1" target="_blank" class="mx-4 text-blue-700 hover:text-blue-800">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+  
+      <!-- Contact Form -->
+      <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-6 rounded  shadow-orange-400 shadow-2xl">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700">Name</label>
+          <input type="text" id="name" name="name" class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required />
+        </div>
+        
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700">Email</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" required />
+        </div>
+        
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700">Message</label>
+          <textarea id="message" name="message" class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="bg-gray-800 text-white py-6 ">
+    <div class="container mx-auto text-center space-y-4">
+      <!-- Footer Content -->
+     
+      
+      <div class="mt-4">
+        <p class="text-gray-400">Contact me via Email:</p>
+        <a href="mailto:sojibislam@example.com" class="text-white hover:text-blue-400 flex items-center justify-center">
+          <i class="fas fa-envelope mr-2"></i> sojibislam@example.com
+        </a>
+      </div>
+      <!-- Additional Footer Links -->
+      <div>
+        <a href="#about" class="text-sm text-gray-400 hover:text-white mx-2">About</a>
+        <a href="#projects" class="text-gray-400 text-sm   hover:text-white mx-2">Projects</a>
+        <a href="#contact" class="text-sm text-gray-400 hover:text-white mx-2">Contact</a>
+      </div>
+      <p class="text-lg mb-4 text-gray-500 font-bold">© 2025 Sojib Islam. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
